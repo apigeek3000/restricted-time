@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="time-restricted">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1665426967941</CreatedAt>
+  <LastModifiedAt>1665426967941</LastModifiedAt>
+  <BasePaths>/time-restricted</BasePaths>
+  <Policies>
+    <Policy>restrict-time</Policy>
+    <Policy>RF-Error-BadTime</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <Resources>
+    <Resource>jsc://restrict-time.js</Resource>
+  </Resources>
+</APIProxy>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript continueOnError="false" enabled="true" timeLimit="200" name="restrict-time">
+  <DisplayName>Restrict Time</DisplayName>
+  <Properties>
+    <Property name="not-before-utc">09:00:00</Property>
+    <Property name="not-after-utc">16:00:00</Property>
+  </Properties>
+  <ResourceURL>jsc://restrict-time.js</ResourceURL>
+</Javascript>
